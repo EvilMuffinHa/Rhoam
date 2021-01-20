@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.17)
 project(rhoamc)
 
-set(CMAKE_CXX_STANDARD 14)
+
 
 add_executable(
         rhoam
@@ -9,3 +9,4 @@ add_executable(
         interpreter.cpp
         interpreter.h
 )
+target_compile_features(rhoam PUBLIC cxx_std_14)

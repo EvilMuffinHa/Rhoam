@@ -105,6 +105,25 @@ void interpreter::execute(string pretty_code) {
 
 REGISTER_IF(catalog, 0) {
     cout << "Welcome to this great esolang :)";
+    /* cout << "BASIC DOCUMENTATION\n"
+            "Typing ']' moves the instruction pointer up one instruction\n"
+            "Typing '[' moves the instruction pointer down one instruction\n"
+            "Typing ':' runs the instruction you are on.\n"
+            "INSTRUCTIONS\n"
+            "0. Opens the Catalog\n"
+            "1. Increments the memory pointer by 1\n"
+            "2. Decrements the memory pointer by 1\n"
+            "3. Increments the memory pointer by the value in the ticket slot\n"
+            "4. Decrements the memory pointer by the value in the ticket slot\n"
+            "5. Increments the ticket slot by 1\n"
+            "6. Decrements the ticket slot by 1\n"
+            "7. Prints the ASCII value of the value that the memory pointer is on\n"
+            "8. Prints the number that the memory pointer is on\n"
+            "9. Increments the instruction pointer by 10\n"
+            "10. Decrements the instruction pointer by 10\n"
+            "11. Increments the memory slot by 1\n"
+            "12. Decrements the memory slot by 1\n";
+            */
 }
 
 REGISTER_IF(imp, 1) {
